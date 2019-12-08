@@ -1,0 +1,81 @@
+﻿※00Presale
+  --需求建議書Request for Proposal (RFP)
+※01Collection
+  --資料收集記錄檔List of Customer Provided Materials
+※02Doc
+  ※01PM
+    --專案進度管制檔Detailed Development Plan
+      專案問題紀錄與追蹤Issue and Bug Tracking Log
+      關鍵人員參與暨溝通計畫Stakeholder Involvement and Communication Plan
+    --會議記錄Meeting Of Minds (MoM)
+      建構管理計劃CM Plan
+      專案時程檔 work breakdown structure, WBS (mpp)
+      專案內部程序與產出總表Estimation Worksheet
+      工作說明書SOW: Statement of Work
+      專案計劃書Project Plan
+  ※02REQ
+    EA 系統流程圖System Functional Flow Chart (UML:Activity)
+    EA 需求規格Requirements Specificamm  tion (UML:Use Case)
+    EA 硬體及網路架構圖Hardware and Network Architecture (UML:Deployment)
+    -- 資料量分析表Data Volume Analysis
+    -- 專案詞彙表Glossary List
+    -- 訪談時程表Interview Schedule
+       *REQ:需求彙整清單Requirements Summaries {Req.No.}
+       *需求追溯表Requirements Traceability Matrix (RTM)
+    >> 系統需求規格書System Requirements Specification
+  ※03SA
+    EA 作業流程圖Practice Flow Chart (UML:Activity)
+    EA 畫面流程模板Screen Layout Template (EA:User Interface) {連到螢幕規格及功能規格}
+    -- 螢幕規格Screen Prototype {HTML,連到功能規格}
+    -- 功能規格及測試案例Functional Specification and Test Cases
+       *SQ:功能清單List of Application System Functions {Fun.No.}
+       *SD:程式清單List of Application System Programs {Pgr.No.}
+       *ST:測試記錄表Test Record
+    >> 系統功能規格書System Functional Specification
+    >> 測試計畫書Test Plan
+  ※04SD
+    WK 系統開發手冊System Design Description
+    WK 設計及命名標準Design and Naming Standard
+    EA 軟體架構圖Software and Network Architecture (UML:Deployment,Component,Package)
+    EA 實體關係圖ER Diagram (UML:Data)
+    EA 檔案說明Data Model Description (UML:Data)
+    EA 程式規格Program Specification (UML:Class) {連到程式規格}
+    -- 程式規格及測試規格Program and Test Specification
+  ※05ST
+    JR 測試問題記錄與追蹤Test Issue and Bug Tracking Log
+    -- 測試報告Test Report(含壓力測試報告Stress Test Report)
+    -- 問題記錄單Issue and Bug Report Form
+    JR 問題記錄單Issue and Bug Report Form
+  ※06USER
+    --操作手冊
+    --系統安裝手冊
+    --包裝檢核表Packaging Checklist
+    --安裝報告Installation Report
+    --出貨單Delivery Note
+    --出貨總表Master List of Items Delivered
+    --軟體授權證明書-正面Software License Certificate (Front Page)
+    --軟體授權合約書-背面Software License Certificate (Back Page)
+    --確認單Sign-off Record
+    --教育訓練及技術移轉計劃表User Training and Technology Transition Plan
+    --課程簽到表Attendance Record
+    --課程意見調查表Course Feedback Form
+    --驗收單Customer Acceptance Record
+    --專案人員聯絡資訊單Project Stakeholders Contact Information
+※03Install
+  ※01APServer
+  ※02DBServer
+  ※03FileServer
+※04Source
+  ※Web
+  ※EXE
+  ※Update
+※05TestData
+※06Baseline
+※07Maintain
+  -- 年度維護計畫Annual Maintenance Plan
+  -- 定期維護記錄單Periodic Maintenance Record
+  -- 維護監控狀態報告Maintenance Status Report
+  -- 會議記錄Meeting Of Minds (MoM)
+  -- 問題記錄單Issue and Bug Report Form
+  JR 問題記錄單Issue and Bug Report Form
+※Tool,TestData,Temp
